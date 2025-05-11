@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scholarships - Abroad Scholars</title>
+  <link rel="stylesheet" href="assets/css/bachelors.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  
+  <!-- Favicons -->
+  <link href="assets/img/favic.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+</head>
+<body>
+  
+
+  <header>
+    <div class="container">
+      <h1>abroad scholars</h1>
+      <input type="text" class="search-bar" placeholder="Search programs..." id="search-input">
+      <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+
+        </div>
+        <nav id="navmenu" class="navmenu">
+            <ul>
+                <li><a href="index.html">Home<br></a></li>
+                <li><a href="bachelors.html" class="active">Scholarships</a></li>
+            </ul>
+            <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+     </header>
+
+  <div class="main-container">
+    <aside class="filter-section">
+      <h2>Filters</h2>
+      <div class="filter-group">
+        <label for="country">Country</label>
+        <select id="country">
+          <option value="">All Countries</option>
+          <option value="us">United States</option>
+          <option value="uk">United Kingdom</option>
+          <option value="cn">Canada</option>
+          <option value="pl">Poland</option>
+          <option value="nl">Netherlands</option>
+          <option value="gr">German</option>
+          <option value="tr">Turkey</option>
+          <option value="ro">Romania</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="discipline">Level</label>
+        <select id="discipline">
+          <option value="">Any</option>
+          <option value="under">Undergraduate</option>
+          <option value="mas">Masters</option>
+          <option value="phd">PhD</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="tuition">Funding</label>
+        <select id="tuition">
+          <option value="">All</option>
+          <option value="full">fully funded</option>
+          <option value="partial">partially funded</option>
+        </select>
+      </div>
+      <div class="filter-buttons">
+        <button id="apply-filters">Apply Filters</button>
+        <button id="reset-filters">Reset Filters</button>
+    </div>
+    </aside>
+    <section class="results-section">
+        <h2>Results</h2>
+        <div class="result-item" data-country="uk" data-level="mas" data-funding="partial">
+          <h3>Bachelor of Engineering</h3>
+          <p>Location: United Kingdom</p>
+          <p>Tuition: £12,000/year</p>
+        </div>
+        <div class="result-item" data-country="nl" data-level="phd" data-funding="full">
+          <h3>Bachelor of Business Administration</h3>
+          <p>Location: Netherlands</p>
+          <p>Tuition: €9,000/year</p>
+        </div>
+        <div class="result-item" data-country="us" data-level="under" data-funding="full">
+          <h3>University of Buffalo Scholarship.</h3>
+          <p>Location: United States</p>
+          <p>Award: $10,000/year</p>
+        </div>
+        <div class="result-item" data-country="uk" data-level="mas" data-funding="partial">
+          <h3>Bachelor of Engineering</h3>
+          <p>Location: United Kingdom</p>
+          <p>Tuition: £12,000/year</p>
+        </div>
+        <div class="result-item" data-country="nl" data-level="phd" data-funding="full">
+          <h3>Bachelor of Business Administration</h3>
+          <p>Location: Netherlands</p>
+          <p>Tuition: €9,000/year</p>
+        </div>
+        <div class="result-item" data-country="uk" data-level="mas" data-funding="partial">
+          <h3>Bachelor of Engineering</h3>
+          <p>Location: United Kingdom</p>
+          <p>Tuition: £12,000/year</p>
+        </div>
+        <div class="result-item" data-country="nl" data-level="phd" data-funding="full">
+          <h3>Bachelor of Business Administration</h3>
+          <p>Location: Netherlands</p>
+          <p>Tuition: €9,000/year</p>
+        </div>
+        <div class="result-item" data-country="us" data-level="under" data-funding="full">
+          <h3>University of Buffalo Scholarship.</h3>
+          <p>Location: United States</p>
+          <p>Award: $10,000/year</p>
+        </div>
+        <div class="result-item" data-country="uk" data-level="mas" data-funding="partial">
+          <h3>Bachelor of Engineering</h3>
+          <p>Location: United Kingdom</p>
+          <p>Tuition: £12,000/year</p>
+        </div>
+        <div class="result-item" data-country="nl" data-level="phd" data-funding="full">
+          <h3>Bachelor of Business Administration</h3>
+          <p>Location: Netherlands</p>
+          <p>Tuition: €9,000/year</p>
+        </div>
+        
+        
+        
+        
+    </section>
+
+    <div class="pagination-container">
+        <button class="pagination-button prev" disabled>&larr;</button>
+        <span class="pagination-info">1 of 100</span>
+        <button class="pagination-button next">&rarr;</button>
+      </div>
+      
+      
+    
+
+      
+
+   <script src="assets/js/script.js"></script>
+</body>
+</html>
